@@ -13,15 +13,15 @@ app.get('/', function (req, res) {
 
 
 app.get('/artical-one', function (req, res) {
-  res.sendFile("Artical-one");
+  res.send("Artical-one");
 });
 
 app.get('/artical-two', function (req, res) {
-  res.sendFile("Artical-two");
+  res.send("Artical-two");
 });
 
 app.get('/artical-three', function (req, res) {
-  res.sendFile("Artical-three");
+  res.send("Artical-three");
 });
 
 
